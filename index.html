@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website Using HTML & CSS | Codehal</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="#" class="logo">SHAKTHI VEL S.</a>
+        <ul>
+            <li class="active"><a href="#About" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#certificates" class="nav-link">Certificates</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#resume" class="nav-link">Resume</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="bars-animation">
+        <div class="bar" style="--i:6"></div>
+        <div class="bar" style="--i:5"></div>
+        <div class="bar" style="--i:4"></div>
+        <div class="bar" style="--i:3"></div>
+        <div class="bar" style="--i:2"></div>
+        <div class="bar" style="--i:1"></div>
+    </div>
+
+    <section class="home" id="About">
+            <div class="home-info">
+                <h1>SHAKTHI VEL S</h1>
+                <h2>I'm a 
+                    <span style="--i:4" data-text="Data Science Student">Data Science Student</span>
+                    <span style="--i:3" data-text="Innovator">Innovator</span>
+                    <span style="--i:2" data-text="Programmer">Programmer</span>
+                    <span style="--i:1" data-text="Content Creator">Content Creator</span>
+                </h2>
+                <p>I'm a Data Science Student. I have a good knowledge in Python, Java, html, CSS, JavaScript, C++, Oops, Responsive Design. I'm currently pursuing my B.Tech in 
+                AI&Data Science at Prince dr k vasudevan College of Engineering and Technology.</p>
+                <div class="btn-sci">
+                    <div class="about-btn">
+                    <a href="#contact" class="hire-btn">Hire Me</a></div>
+                    <div class="sci">
+                        <a href="https://github.com/shakthivelmpl550-ui" target="_blank"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.linkedin.com/in/shakthi-vel-s-6b723b386" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://www.youtube.com/@SHAKTHIVEL-s7t" target="_blank"><i class='bx bxl-youtube'></i></a>
+                        <a href="https://www.instagram.com/hey_shakthi_2008/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-img">
+                <div class="img-box">
+                    <div class="img-item">
+                        <img src="home4.png" alt="">
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Skills Section -->
+</section>
+<section id="skills" class="skills-section">
+    <div class="section-title">
+        <h2><span style="color:#ffff;">My</span> Skills</h2>
+        <p>Technologies and tools I use to build projects.</p>
+    </div>
+
+    <div class="skills-container">
+
+        <div class="skill-card">
+            <i class="fab fa-python"></i>
+            <h3>Python</h3>
+            <div class="progress-bar">
+                <div class="progress python" data-width="85%"></div>
+            </div>
+            <span>75%</span>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-java"></i>
+            <h3>Java</h3>
+            <div class="progress-bar">
+                <div class="progress java" data-width="75%"></div>
+            </div>
+            <span>75%</span>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-html5"></i>
+            <h3>HTML</h3>
+            <div class="progress-bar">
+                <div class="progress html" data-width="95%"></div>
+            </div>
+            <span>75%</span>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-css3-alt"></i>
+            <h3>CSS</h3>
+            <div class="progress-bar">
+                <div class="progress css" data-width="90%"></div>
+            </div>
+            <span>70%</span>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-js"></i>
+            <h3>JavaScript</h3>
+            <div class="progress-bar">
+                <div class="progress js" data-width="80%"></div>
+            </div>
+            <span>60%</span>
+        </div>
+
+        <div class="skill-card">
+            <i class="fas fa-database"></i>
+            <h3>SQL</h3>
+            <div class="progress-bar">
+                <div class="progress sql" data-width="75%"></div>
+            </div>
+            <span>65%</span>
+        </div>
+
+        <div class="skill-card">
+            <i class="fas fa-paint-brush"></i>
+            <h3>UI/UX Design</h3>
+            <div class="progress-bar">
+                <div class="progress ux" data-width="85%"></div>
+            </div>
+            <span>85%</span>
+        </div>
+
+    </div>
+</section>
+    <!-- Certificates Section -->
+<section class="certificates" id="certificates">
+    <h2 class="heading">My <span>Certificates</span></h2>
+
+    <div class="certificate-container">
+
+        <!-- Certificate 1 -->
+        <div class="certificate-card">
+            <img src="infosphy_page-0001.jpg" alt="Python Certificate">
+
+            <div class="certificate-content">
+                <h3>Python Programming</h3>
+                <p class="issuer">Issued by: Infosys Springboard</p>
+
+                <p>
+                    Successfully completed Python Programming course
+                    covering OOPs, Functions, File Handling, and Projects.
+                </p>
+
+                <a href="infosphy_page-0001.jpg" target="_blank" class="btn">
+                    View Certificate
+                </a>
+            </div>
+        </div>
+
+        <!-- Certificate 2 -->
+        <div class="certificate-card">
+            <img src="infosjava_page-0001.jpg" alt="Java Certificate">
+
+            <div class="certificate-content">
+                <h3>Java Fundamentals</h3>
+                <p class="issuer">Issued by: Infosys Springboard</p>
+
+                <p>
+                    Learned Core Java concepts including classes,
+                    objects, inheritance and exception handling.
+                </p>
+
+                <a href="infosjava_page-0001.jpg" target="_blank" class="btn">
+                    View Certificate
+                </a>
+            </div>
+        </div>
+
+        <!-- Certificate 3 -->
+        <div class="certificate-card">
+            <img src="web1.jpg" alt="Web Development">
+
+            <div class="certificate-content">
+                <h3>Web Development</h3>
+                <p class="issuer">Issued by: FreeCodeCamp</p>
+
+                <p>
+                    Completed HTML, CSS, JavaScript and Responsive
+                    Website Development training.
+                </p>
+
+                <a href="web1.jpg" target="_blank" class="btn">
+                    View Certificate
+                </a>
+            </div>
+        </div>
+
+        <!-- Certificate 4 -->
+        <div class="certificate-card">
+            <img src="Microsoft achievement certificate for Shakthi Vel S.png" alt="Data Science">
+
+            <div class="certificate-content">
+                <h3>Microsoft Achievements</h3>
+                <p class="issuer">Issued by: Microsoft</p>
+
+                <p>
+                    Introduction to create and manage canvas apps
+                     with Power Apps Learning concepts.
+                </p>
+
+                <a href="Microsoft achievement certificate for Shakthi Vel S.png" target="_blank" class="btn">
+                    View Certificate
+                </a>
+            </div>
+        </div>
+
+        <!-- Certificate 5 -->
+        <div class="certificate-card">
+            <img src="web2.jpg" alt="Web Development">
+
+            <div class="certificate-content">
+                <h3>Web Development</h3>
+                <p class="issuer">Issued by: FreeCodeCamp</p>
+
+                <p>
+                    Completed HTML, CSS, JavaScript and Responsive
+                    Website Development training.
+                </p>
+
+                <a href="web2.jpg" target="_blank" class="btn">
+                    View Certificate
+                </a>
+            </div>
+        </div>
+
+        <!-- Certificate 6 -->
+        <div class="certificate-card">
+            <img src="Microsoft certificate of completion.png" alt="Data Science">
+
+            <div class="certificate-content">
+                <h3>Microsoft Achievements</h3>
+                <p class="issuer">Issued by: Microsoft</p>
+
+                <p>
+                    Applied Skills to secure storage for Azure
+                    Files and Azure Blob Storage, and to manage access to
+                    Azure Storage resources using Shared Access Signatures (SAS).
+                </p>
+
+                <a href="Microsoft certificate of completion.png" target="_blank" class="btn">
+                    View Certificate
+                </a>
+            </div>
+        </div>
+
+        <!-- Certificate 7 -->
+        <div class="certificate-card">
+            <img src="leap.png" alt="Data Science">
+
+            <div class="certificate-content">
+                <h3>Innovation</h3>
+                <p class="issuer">Issued by: Leap</p>
+
+                <p>
+                    Introduction to LPB02-Automation 
+                    with arduino Bootcamp.iam so proud to have completed this course and
+                    gained valuable knowledge in automation.
+
+                <a href="leap.png" target="_blank" class="btn">
+                    View Certificate
+                </a>
+            </div>
+        </div>
+
+        <!-- Certificate 8 -->
+        <div class="certificate-card">
+            <img src="tcscommi.png" alt="Data Science">
+
+            <div class="certificate-content">
+                <h3>Tcs communication Skill</h3>
+                <p class="issuer">Issued by: TCS </p>
+
+                <p>
+                    Successfully completed TCS Communication Skill course
+                    and i Achieved the certificate for my effective communication skills.
+                </p>
+
+                <a href="tcscommi.png" target="_blank" class="btn">
+                    View Certificate
+                </a>
+            </div>
+        </div>
+
+        <!-- Certificate 9 -->
+        <div class="certificate-card">
+            <img src="scalar.jpg" alt="Data Science">
+
+            <div class="certificate-content">
+                <h3>Scalar Achievements</h3>
+                <p class="issuer">Issued by: Scalar</p>
+
+                <p>
+                    Successfully completed the Javascript Course with
+                    certification from Scalar and gained a strong foundation in JavaScript programming.
+                </p>
+
+                <a href="scalar.jpg" target="_blank" class="btn">
+                    View Certificate
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="achievement" id="achievements">
+
+    <div class="achievement-header">
+        <h2>My <span>Achievements</span></h2>
+        <p>Highlights of my academic and technical journey.</p>
+    </div>
+
+    <div class="achievement-banner">
+
+        <div class="achievement-image">
+            <img src="gdg.jpg" alt="GDG Hackathon Winner">
+        </div>
+
+        <div class="achievement-content">
+
+            <div class="achievement-badge">
+                🏆 1st Place Winner
+            </div>
+
+            <h3>Google Developer Groups (GDG) Hackathon Champion</h3>
+
+            <p>
+                Proud to be part of a talented team that we secured
+                <strong>1st Prize</strong> in the GDG Hackathon.
+            </p>
+
+            <p>
+                Our team developed <strong>Krushi Connect</strong>,
+                an innovative farming solution designed to connect
+                farmers directly with customers, improve market
+                accessibility, and promote smart agriculture through technology.
+            </p>
+
+            <p>
+                The project was recognized for its innovation,
+                real-world impact, problem-solving approach,
+                and user-friendly design.
+            </p>
+
+            <div class="achievement-stats">
+
+                <div class="stat-box">
+                    <h4>1st</h4>
+                    <span>Position</span>
+                </div>
+
+                <div class="stat-box">
+                    <h4>GDG</h4>
+                    <span>Hackathon</span>
+                </div>
+
+                <div class="stat-box">
+                    <h4>4</h4>
+                    <span>Team Members</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="resume" id="resume">
+
+    <div class="resume-title">
+        <h2>Professional <span>Profile</span></h2>
+        <p>AI & Data Science Student | Innovator | Programmer</p>
+    </div>
+
+    <div class="resume-grid">
+
+        <!-- Profile -->
+        <div class="resume-card profile-card">
+            <h3>About Me</h3>
+
+            <p>
+                Passionate AI & Data Science student with strong
+                programming, communication and problem-solving skills.
+                I enjoy creating innovative technology solutions
+                that solve real-world problems.
+            </p>
+
+            <p>
+                Currently pursuing B.Tech in Artificial Intelligence
+                and Data Science while actively participating in
+                hackathons, technical events and innovation projects.
+            </p>
+        </div>
+
+        <!-- Education -->
+        <div class="resume-card">
+            <h3>Education</h3>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span>Present</span>
+                    <h4>B.Tech AI & Data Science</h4>
+                    <p>Prince Dr. K. Vasudevan College of Engineering & Technology</p>
+                </div>
+
+                <div class="timeline-item">
+                    <span>HSC</span>
+                    <h4>Higher Secondary Education</h4>
+                    <p>Municipal Higher Secondary School, Hasthinapuram, Chennai</p>
+                </div>
+
+                <div class="timeline-item">
+                    <span>SSLC</span>
+                    <h4>Secondary Education</h4>
+                    <p>Municipal Higher Secondary School, Hasthinapuram, Chennai</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills -->
+        <div class="resume-card">
+            <h3>Technical Skills</h3>
+
+            <div class="skill-tags">
+                <span>Python</span>
+                <span>Java</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>SQL</span>
+                <span>Problem Solving</span>
+                <span>Responsive Design</span>
+            </div>
+        </div>
+
+        <!-- Languages -->
+        <div class="resume-card">
+            <h3>Languages</h3>
+
+            <div class="skill-tags">
+                <span>Tamil (Native)</span>
+                <span>English</span>
+                <span>Telugu</span>
+                <span>Basic Hindi</span>
+            </div>
+        </div>
+
+        <!-- Achievements -->
+        <div class="resume-card full-card">
+            <h3>Achievements</h3>
+
+            <div class="achievement-line">
+                🏆 Secured 1st Place in GDG Hackathon by developing
+                the Krushi Connect Farming Application.
+            </div>
+        </div>
+
+        <!-- Innovation -->
+        <div class="resume-card full-card">
+            <h3>Innovation Projects</h3>
+
+            <div class="innovation-box">
+
+                <h4>Safety-Focused Electronic Prototype</h4>
+
+                <p>
+                    Developed safety-focused electronic prototype
+                    projects<strong> Stun gun </strong> for personal protection and emergency
+                    assistance. The project focused on enhancing
+                    user safety through innovative technology and
+                    practical problem-solving approaches.
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="resume-download">
+        <a href="resume.pdf" download target="_blank" class="btn">
+    Download Resume
+</a>
+    </div>
+
+</section>
+
+<section id="contact" class="contact">
+    <div class="contact-container">
+        <h2>Contact <span style="color: #7cf03d ;">Me</span></h2>
+        <p>Let's work together on your next project.</p>
+
+        <form id="contactForm">
+            <div class="input-group">
+                <input type="text" placeholder="Your Name" required>
+            </div>
+
+            <div class="input-group">
+                <input type="email" placeholder="Your Email" required>
+            </div>
+
+            <div class="input-group">
+                <input type="text" placeholder="Subject" required>
+            </div>
+
+            <div class="input-group">
+                <textarea rows="6" placeholder="Your Message" required></textarea>
+            </div>
+
+            <button type="submit" class="send-btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- Success Popup -->
+<div id="successPopup" class="popup">
+    <div class="popup-content">
+        <div class="checkmark">✓</div>
+        <h2>Message Sent!</h2>
+        <p>Thank you for contacting me. I will get back to you soon.</p>
+        <button onclick="closePopup()">OK</button>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
